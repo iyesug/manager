@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="header">@drawable/header1</item>
+        <item name="ic_launcher">@mipmap/ic_launcher1</item>
+        <item name="add">@mipmap/add1</item>
+
+        <item name="windowActionBar">false</item>
+         <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme1" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="colorAccent">@color/colorAccent1</item>
+        <item name="header">@drawable/header</item>
+        <item name="ic_launcher">@mipmap/ic_launcher</item>
+        <item name="add">@mipmap/add</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CustomersManage</string>
+    <string name="toolbar_title">Manager</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="name">vis</string>
+    <string name="url">vis.com</string>
+    <string name="settings">设置</string>
+    <string name="dot">点</string>
+
+    <string name="request_original_result">响应码：%1$d\n花费时间：%2$d毫秒。</string>
+    <string name="wait">正在连接，请稍后…</string>
+    <string name="request_succeed">请求成功</string>
+    <string name="request_method_not_allow">服务器不支持请求方法</string>
+    <string name="know">知道了</string>
+    <string name="request_failed">请求失败</string>
+    <string name="request_method_head">请求方法为HEAD，没有内容。</string>
+    <string name="choose">请选择</string>
+    <string name="cancel">取消</string>
+    <string name="commit">确定</string>
+    <string name="edit">修改资料</string>
+
+
+</resources>

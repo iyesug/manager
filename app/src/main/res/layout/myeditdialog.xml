@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/id_cardview_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="32dp">
+        <TextView
+            android:id="@+id/id_textview_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="  I  D："
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:id="@+id/id_textview_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="009"
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/id_textview_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="姓名："
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+        <EditText
+            android:id="@+id/id_textview_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:singleLine="true"
+            android:gravity="left"
+
+            android:text="流量"
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/id_cardview_adr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+
+
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/id_textview_adr1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="地址："
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+        <EditText
+            android:id="@+id/id_textview_adr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:singleLine="true"
+            android:gravity="left"
+            android:text="福建福州台江万达广场"
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/id_textview_tel1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="电话："
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+        <EditText
+            android:id="@+id/id_textview_tel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:singleLine="true"
+            android:gravity="left"
+            android:text="13600904342"
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            android:inputType="phone"
+            />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/id_textview_mail1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="邮箱："
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+        <EditText
+            android:id="@+id/id_textview_mail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:singleLine="true"
+            android:gravity="left"
+            android:text="流量"
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            android:inputType="textEmailAddress"
+            />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/id_textview_qq1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="Q  Q ："
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+        <EditText
+            android:id="@+id/id_textview_qq"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:text="3535442211"
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:gravity="left"
+            />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/id_textview_fax1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="传真："
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            />
+
+
+        <EditText
+            android:id="@+id/id_textview_fax"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:text="83989898"
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:gravity="left"
+
+            />
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

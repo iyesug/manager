@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources >
+    <declare-styleable name="AppTheme">
+        <attr name="header"/>
+        <attr name="ic_launcher"/>
+        <attr name="add"/>
+    </declare-styleable>
+
+    <attr name="header" format="reference"></attr>
+
+    <attr name="ic_launcher" format="reference"></attr>
+    <attr name="add" format="reference"></attr>
+</resources>
